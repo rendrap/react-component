@@ -33,7 +33,7 @@ class App extends Component {
     this.setState( prevState => ({
       score : prevState.players[index].score += delta
     }));
-    console.log('index: ' + index,'delta: ' + delta);
+    // console.log('index: ' + index,'delta: ' + delta);
   };
 
   handleAddPlayer = (name) => {
@@ -61,8 +61,6 @@ class App extends Component {
       };
     });
   }
-
-
 
   render() {
     return (
